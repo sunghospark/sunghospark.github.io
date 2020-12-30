@@ -3,17 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sunghospark.com/tags/2020/</loc>
-    <lastmod>2020-12-23T21:08:13-08:00</lastmod>
+    <loc>https://sunghospark.com/tags/devops/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/tags/helm/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/blog/helm-2-to-3/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/tags/k8s/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/tags/kubernetes/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/tags/sre/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://sunghospark.com/</loc>
-    <lastmod>2020-12-23T21:08:13-08:00</lastmod>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://sunghospark.com/tags/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/tags/tech/</loc>
+    <lastmod>2020-12-28T16:06:58-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sunghospark.com/tags/2020/</loc>
     <lastmod>2020-12-23T21:08:13-08:00</lastmod>
   </url>
   
