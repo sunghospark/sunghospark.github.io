@@ -9,9 +9,10 @@
   <meta name="generator" content="Hugo 0.58.1" />
   
   <!-- Mobile Specific Metas -->
-  <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>kubernetes</title>
+  
+  <meta name="theme-name" content="timer-hugo" />
   <link rel="icon" href="https://sunghospark.com/images/favicon.ico">
 
   <!-- Twitter Bootstrs CSS -->
@@ -30,8 +31,14 @@
   <link rel="stylesheet" href="https://sunghospark.com/plugins/hover/hover-min.css">
   <!-- template main css file -->
   
-  <link rel="stylesheet" href="https://sunghospark.com/css/style.min.css" integrity="" media="screen">
-</head><body><section class="top-bar animated-header">
+  <link rel="stylesheet" href="https://sunghospark.com/css/style.min.css" media="screen">
+  
+	<!-- Custom stylesheet - for your changes -->
+	
+  <link rel="stylesheet" href="https://sunghospark.com/css/custom.min.css" media="screen">
+  
+</head>
+<body><section class="top-bar animated-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -46,26 +53,35 @@
 
 					<div class="collapse navbar-collapse" id="navigation">
 						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="https://sunghospark.com/">Home</a>
-							</li>
 							
 							<li class="nav-item">
-								<a class="nav-link" href="https://sunghospark.com/resume">Resume</a>
+								<a class="nav-link"
+									href="https://sunghospark.com/resume">Resume</a>
 							</li>
+							
+							
 							
 							<li class="nav-item">
-								<a class="nav-link" href="https://sunghospark.com/gallery">Gallery</a>
+								<a class="nav-link"
+									href="https://sunghospark.com/gallery">Gallery</a>
 							</li>
+							
+							
 							
 							<li class="nav-item">
-								<a class="nav-link" href="https://sunghospark.com/blog">Blog</a>
+								<a class="nav-link"
+									href="https://sunghospark.com/blog">Blog</a>
 							</li>
+							
+							
 							
 							<li class="nav-item">
-								<a class="nav-link" href="https://sunghospark.com/contact">Contact</a>
+								<a class="nav-link"
+									href="https://sunghospark.com/contact">Contact</a>
 							</li>
 							
+							
+						</ul>
 					</div>
 				</nav>
 			</div>
@@ -75,63 +91,70 @@
 
 <!-- Global Page Section Start -->
 <section class="global-page-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h2>kubernetes</h2>
-                    <ol class="breadcrumb list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="https://sunghospark.com/">
-                                <i class="ion-ios-home"></i>
-                                Home &nbsp; &nbsp;/
-                            </a>
-                        </li>
-                        <li class="active list-inline-item">kubernetes</li>
-                    </ol>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>kubernetes</h2>
+          <ol class="breadcrumb list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://sunghospark.com/">
+                <i class="ion-ios-home"></i>
+                Home &nbsp; &nbsp;/
+              </a>
+            </li>
+            <li class="active list-inline-item">kubernetes</li>
+          </ol>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 <!-- Global Page Section End -->
 
 <section id="blog-full-width">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                
-                <article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
-                    
-                    <div class="blog-post-image">
-                        <a href="https://sunghospark.com/blog/helm-2-to-3/">
-                             <img class="img-fluid" src="https://sunghospark.com/images/helm.jpg" alt="post-image"/>
-                        </a>
-                    </div>
-                    <div class="blog-content">
-                        <h2 class="blogpost-title">
-                            <a href="https://sunghospark.com/blog/helm-2-to-3/">Helm 2 to 3 Migration Review</a>
-                        </h2>
-                        <div class="blog-meta">
-                            <span>Monday, Dec 28, 2020</span>
-                            
-                            
-                            <span>
-                                tech, devops, sre, kubernetes, k8s, helm
-                            </span>
-                            
-                        </div>
-                        <p>
-                            My first project at Calm was migrating Helm2 to Helm3. In this post, I&rsquo;m going to share a few resources I used as guidance and more detailed steps and minor problems I ran into during the migration process.
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				
+				
+				<article class="wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">
+
+					<div class="blog-post-image">
+						<a href="https://sunghospark.com/blog/helm-2-to-3/">
+							<img class="img-fluid" src="https://sunghospark.com/images/helm.jpg" alt="post-image" />
+						</a>
+					</div>
+					<div class="blog-content">
+						<h2 class="blogpost-title">
+							<a href="https://sunghospark.com/blog/helm-2-to-3/">Helm 2 to 3 Migration Review</a>
+						</h2>
+						<div class="blog-meta">
+							<span>6 December 2020</span>
+							
+							
+							<span>
+								tech, devops, sre, kubernetes, k8s, helm
+							</span>
+							
+						</div>
+						<p>
+							My first project at Calm was migrating Helm2 to Helm3. In this post, I&rsquo;m going to share a few resources I used as guidance and more detailed steps and minor problems I ran into during the migration process.
 Recommended Read  Summary of the changes from Helm 2 to Helm 3 How to migrate from Helm v2 to Helm v3 Migrating to Helm 3: What You Need to Know  Migration Scenario at Calm  At Calm, we have multiple k8s clusters throughout the environment.
-                        </p>
-                        <a href="https://sunghospark.com/blog/helm-2-to-3/" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue Reading</a>
-                    </div>
-                </article>
-                
-            </div>
-        </div>
-    </div>
+						</p>
+						<a href="https://sunghospark.com/blog/helm-2-to-3/" class="btn btn-dafault btn-details hvr-bounce-to-right">Continue
+							Reading</a>
+					</div>
+				</article>
+				
+
+				
+				
+
+
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- Footer Section Start -->
@@ -151,26 +174,25 @@ Recommended Read  Summary of the changes from Helm 2 to Helm 3 How to migrate fr
                 <!-- Social Media -->
                 <ul class="social text-center text-md-right text-lg-right">
                     
-                    <li><a href="https://facebook.com/sunghospark"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://facebook.com/sunghospark" class="facebook"><i class="ion-social-facebook"></i></a></li>
                     
-                    <li><a href="https://www.instagram.com/sunghospark/"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/sunghospark/" class="facebook"><i class="ion-social-instagram"></i></a></li>
                     
-                    <li><a href="https://www.linkedin.com/in/sunghospark"><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sunghospark" class="facebook"><i class="ion-social-linkedin"></i></a></li>
                     
-                    <li><a href="https://wimhofmethod.com/instructors/sunghospark"><i class="ion-flame"></i></a></li>
+                    <li><a href="https://wimhofmethod.com/instructors/sunghospark" class="facebook"><i class="ion-flame"></i></a></li>
                     
+
                 </ul>
             </div>
         </div>
     </div>
+  </div>
 </footer>
 <!-- footer section end -->
 
 <!-- jquery -->
 <script src="https://sunghospark.com/plugins/jQurey/jquery.min.js"></script>
-<!-- Form Validation -->
-<script src="https://sunghospark.com/plugins/form-validation/jquery.form.js"></script>
-<script src="https://sunghospark.com/plugins/form-validation/jquery.validate.min.js"></script>
 <!-- slick slider -->
 <script src="https://sunghospark.com/plugins/slick/slick.min.js"></script>
 <!-- bootstrap js -->
@@ -186,11 +208,19 @@ Recommended Read  Summary of the changes from Helm 2 to Helm 3 How to migrate fr
 <script src="https://sunghospark.com/js/script.min.js"></script>
 <!-- google analitycs -->
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-118894240-3', 'auto');
-    ga('send', 'pageview');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-118894240-3', 'auto');
+  ga('send', 'pageview');
 </script></body>
+
 </html>
